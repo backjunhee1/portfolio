@@ -9,8 +9,9 @@ a{
 }
 html,body {
     color: #333;
-    min-width: 1280px;
+    min-width: 1280px;   
 }
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');/* 폰트변경 */
 
 /* header */
 header {
@@ -34,9 +35,12 @@ header div h1 a {
 
 /* main_visual 메인비주얼 */
 .main_visual {
+    font-family: 'Volkhov', serif; /* 폰트변경 */
     width: 100%;
     height: 800px;
-    background: url('../images/main1.jpg')center center / cover no-repeat;
+    background: rgb(255,255,255);
+    background: linear-gradient(199deg, rgba(255,255,255,1) 25%, rgba(51,51,51,1) 71%, rgba(238,238,238,1) 96%);
+    /* background: url('../images/main1.jpg')center center / cover no-repeat; */
     background-attachment: fixed;
     color: #fff;
     display: flex;
@@ -47,7 +51,8 @@ header div h1 a {
     text-align: center;
 }
 .main_visual div h2 {
-    font-size: 80px;    
+    font-size: 100px;
+       
 }
 .main_visual div p {
     font-size: 40px;
@@ -60,14 +65,17 @@ header div h1 a {
     margin: 150px 0;
 }
 .best h3 {
-    font-size: 45px;
+    font-family: 'Volkhov', serif;
+    font-size: 60px;
     text-align: right;
     width: 1280px;
     margin: 0 auto;
 }
 .best .bg {
-    background-color: #eee;
+    background: rgb(255,255,255);
+    background: linear-gradient(199deg, rgba(255,255,255,1) 44%, rgba(51,51,51,1) 77%, rgba(238,238,238,1) 100%);/* 그라디언트 칼라 */
     padding: 100px 0;
+
 }
 .best .bg .best_box {
     margin-bottom: 0;
@@ -233,8 +241,9 @@ h3{
 
 /* 2D 디자인 */
 .g_design{
-    background-color: #eee;
-    padding: 150px 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(199deg, rgba(255,255,255,1) 44%, rgba(51,51,51,1) 77%, rgba(238,238,238,1) 100%);
+    padding: 150px 0;/* 그라디언트 칼라 */
 }
 .g_design em {
     width: 1280px;
